@@ -34,10 +34,21 @@ export default function TourCard({
 
       <div className="p-4">
         {/* Info Row */}
-        <div className="flex items-center text-gray-600 text-sm gap-4">
-          <Car size={16} />
-          <Clock size={16} /> <span>{duration}</span>
-          <Users size={16} /> <span>{capacity}</span>
+        <div className="flex items-center gap-3 text-gray-500 mt-2 text-sm">
+          <div className="flex items-center gap-1 whitespace-nowrap">
+            <Car size={16} />
+          </div>
+
+          <div className="flex items-center gap-1 whitespace-nowrap">
+            <span>|</span>
+            <Clock size={16} />
+            <span>3 hours</span>
+            <span>|</span>
+          </div>
+          <div className="flex items-center gap-1 whitespace-nowrap">
+            <Users size={16} />
+            <span>Up to 6 people</span>
+          </div>
         </div>
 
         {/* Guide Info */}
