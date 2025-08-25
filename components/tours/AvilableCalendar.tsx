@@ -41,7 +41,6 @@ export default function AvailabilityCalendar() {
             borderRadius: "9999px",
           },
         }}
-        disabled={(day) => !isAvailable(day)}
       />
 
       <div className="flex gap-4 text-sm">

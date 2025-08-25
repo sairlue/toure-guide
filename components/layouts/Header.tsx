@@ -84,6 +84,11 @@ export default function Header() {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
+            <Link href="/tour-guides">Toure Guides</Link>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
             <Link href="/profile">Profile</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
